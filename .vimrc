@@ -6,5 +6,6 @@ set cindent
 colorscheme firewatch
 :set number
 map :mit :0r ~/.vim/mit.txt
+autocmd BufRead,BufNewFile *.md setlocal spell
+autocmd BufRead,BufNewFile *.txt setlocal spell
 set complete+=kspell
-:set spell spelllang=en_us
