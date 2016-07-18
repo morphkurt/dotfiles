@@ -2,7 +2,9 @@
 
 ~~~bash
 #create a following directory
-mkdir dotfiles
+
+git clone https://github.com/morphkurt/dotfiles.git
+
 ln -s ~/dotfiles/.bashrc ~/.bashrc
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 ~~~
